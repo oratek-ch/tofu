@@ -9,7 +9,7 @@ The TOFU board is a carrier board for use with Raspberry Pi Compute Module 4 (CM
 Inspired by the official CM4IO board, it is intended for industrial applications.
 With user friendly additions, it may also be used by enthusiasts looking for a compact yet complete solution to interface the many inputs and outputs of the single board computer.
 
-![tofu_cm4_sd](_media/TOFU_cm4_sd.jpg)  
+![tofu_cm4_sd](./_media/TOFU_cm4_sd.jpg)  
 TOFU board with mounted CM4
 
 ## Features
@@ -29,15 +29,15 @@ The size of the board is 9x9cm and its main features are :
 - Standard Raspberry Pi, CM4 and 4 additional M3 mounting holes for design flexibility
 
 
-![tofu_lte](_media/TOFU_LTE.jpg)
+![tofu_lte](./_media/TOFU_LTE.jpg)
 M.2 connectivity (key B) enables to fully take advantage of the new PCIe lane (here with a LTE/GPS module)
 
 ## Layout
 
-![design_top](_media/Design_top.svg)  
+![design_top](./_media/Design_top.svg)  
 Top layer design (also see [pin configurations](#pin-configurations))
 
-![design_bot](_media/Design_bot.svg)  
+![design_bot](./_media/Design_bot.svg)  
 Bottom layer design
 
 ### Additional information
@@ -75,12 +75,12 @@ Note: When powering the device through PoE (5V line of RPi header as power input
 
 ## Technical files
 ### Mechanical
-- [STEP file](_assets/TOFU.zip ':ignore :target=_blank')
-- [Mechanical drawings](_assets/TOFU-drawing.pdf ':ignore :target=_blank')  
+- [STEP file](./_assets/TOFU.zip ':ignore :target=_blank')
+- [Mechanical drawings](./_assets/TOFU-drawing.pdf ':ignore :target=_blank')  
 
 ### Electical
-- [Schematics](_assets//TOFU-schematics.pdf ':ignore :target=_blank')  
-- [Components reference](_assets//TOFU-references.pdf ':ignore :target=_blank')  
+- [Schematics](./_assets//TOFU-schematics.pdf ':ignore :target=_blank')  
+- [Components reference](./_assets//TOFU-references.pdf ':ignore :target=_blank')  
 
 ## Setup
 
@@ -105,10 +105,10 @@ More information on NVMe can be found on Jeff Geerling's CM4 [review](https://ww
 To boot on eMMC, hold down the nRPIBOOT button while plugging the USB-C cable for flashing (no other power input). The USB cable will power the CM4 while it boots. You may release the button after having plugged the cable.
 
 ### Pin configurations
-![boot_detail](_media/boot_detail.jpg)  
+![boot_detail](./_media/boot_detail.jpg)  
 Boot and EEPROM options
 
-![en_dis_detail](_media/En_Dis_detail.jpg)  
+![en_dis_detail](./_media/En_Dis_detail.jpg)  
 Output voltage selection, Raspberry Pi 'Enable' and 'Run' pins, and wireless options
 
 ### Resources
