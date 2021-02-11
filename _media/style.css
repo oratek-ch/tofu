@@ -1,0 +1,64 @@
+<style>
+
+  .cover-main {
+    color: white !important;
+  }
+
+  /**
+  - main title
+  */
+  .cover-main h1 a span {
+    color: white !important;
+  }
+
+  /**
+  - main title's version number
+  */
+  .cover-main h1 a span small {
+    color: white !important;
+  }
+
+  /**
+  - description
+  */
+  .cover-main blockquote {
+    color: white !important;
+  }
+
+  /**
+  - key features
+  */
+  .cover-main ul {
+    color: #666 !important;
+  }
+
+  /**
+  - buttons
+  */
+  section.cover .cover-main > p:last-child a {
+    color: white !important;
+    border-color: white !important;
+    border-radius: 0px !important;
+  }
+
+  section.cover .cover-main > p:last-child a:hover {
+    color: white !important;
+    border-radius: 0px !important;
+  }
+
+  /**
+  - last button
+  */
+  section.cover .cover-main > p:last-child a:last-child {
+    color: black !important;
+    background-color: white !important;
+    border-color: white !important;
+    border-radius: 0px !important;
+  }
+
+  section.cover .cover-main > p:last-child a:last-child:hover {
+    color: black !important;
+    border-radius: 0px !important;
+  }
+
+</style>
