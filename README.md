@@ -103,6 +103,7 @@ More information on NVMe can be found on Jeff Geerling's CM4 [review](https://ww
 
 ### eMMC boot
 To boot on eMMC, hold down the nRPIBOOT button while plugging the USB-C cable for flashing (no other power input). The USB cable will power the CM4 while it boots. You may release the button after having plugged the cable.
+More information for flashing the eMMC can be found [here](https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md).
 
 ### Pin configurations
 ![boot_detail](./_media/boot_detail.jpg)  
