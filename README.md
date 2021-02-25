@@ -22,7 +22,7 @@ The size of the board is 9x9cm and its main features are :
 - Full size HDMI port
 - Camera and display ports (newer 22pin version, flexible adapter cables can be purchased separately [here](https://store.oratek.com/collections/tofu))
 - Two power inputs for industrial connectors (2.1mm barrel and standard 3.5mm terminal block)
-- Input voltage can be set between 7.5 and 28V and is also available on a 3x1 header for sharing to HATs requiring higher voltages
+- Input voltage can be set between 7.5 and 28V and is also available on a 3x1 header for sharing to HATs requiring higher voltages (recommended power rating: >25W)
 - Micro SD card slot
 - USB-C port to use it as an OTG device and for programming purposes. May also be used to power the CM4, but no M.2 card due to power constraints.
 - Circuit protections added for safety reasons (ESD, over- and reverse-current protections)
@@ -75,8 +75,8 @@ Note: When powering the device through PoE (5V line of RPi header as power input
 
 ## Technical files
 ### Mechanical
-- [STEP file](./_assets/TOFU.zip ':ignore :target=_blank')
-- [Mechanical drawings](./_assets/TOFU-drawing.pdf ':ignore :target=_blank')  
+- [STEP file](./_assets//TOFU.zip ':ignore :target=_blank')
+- [Mechanical drawings](./_assets//TOFU-drawing.pdf ':ignore :target=_blank')  
 
 ### Electical
 - [Schematics](./_assets//TOFU-schematics.pdf ':ignore :target=_blank')  
