@@ -22,7 +22,7 @@ The size of the board is 9x9cm and its main features are :
 - Full size HDMI port
 - Camera and display ports (newer 22pin version, flexible adapter cables can be purchased separately [here](https://store.oratek.com/collections/tofu))
 - Two power inputs for industrial connectors (2.1mm barrel and standard 3.5mm terminal block)
-- Input voltage can be set between 7.5 and 28V and is also available on a 3x1 header for sharing to HATs requiring higher voltages (recommended power rating: >25W)
+- Input voltage can be set between 7.5 and 28V and is also available on a 3x1 header for sharing to HATs requiring higher voltages (recommended power rating: >24W)
 - Micro SD card slot
 - USB-C port to use it as an OTG device and for programming purposes. May also be used to power the CM4, but no M.2 card due to power constraints.
 - Circuit protections added for safety reasons (ESD, over- and reverse-current protections)
@@ -46,17 +46,18 @@ Bottom layer design
 | CM4 connectors | 1.45mm height|
 | Raspberry Pi header | Standard 40pin connector, refer to Raspberry Pi datasheets|
 | EEPROM WP, eMMC boot | Optional jumper (2.54mm pitch, see [pin configurations](#pin-configurations))|
-| Gb Ethernet | ESD protected, Power over Ethernet (PoE) capabilities|
+| Gb Ethernet | ESD protected, Power over Ethernet (PoE) capabilities through the official [Raspberry Pi PoE HAT](https://www.raspberrypi.org/products/poe-hat/). If using this HAT, we recommend using 10mm, M2.5 spacers, and covering the transformer with electrical tape for added protection. Using this HAT, the board will be compatible with 802.3af PoE networks. The CM4 will also enjoy a little breeze from the included fan. If using PoE through this HAT however, the M.2 connector will not be powered on due to power constraints. An alternative design could power the TOFU board below through our input voltage breakout. |
 | Double USB A | Stacked USB 2.0 connectors, 1.5A current limit for all USB ports|
 | Main power fuse | Littelfuse, 3.5A, NANO2 ([045303.5MR](https://www.mouser.ch/ProductDetail/Littelfuse/0453035MR/?qs=qI%252BDxnNls1%2FE840Q9SUK5A%3D%3D), or similar) |
 | PWR/ACT LEDs | Red power LED, green flashing activity LED |
 | Power jack | 2.1mm inside, 5.5mm outside diameter |
 | Terminal block | Standard 2 positions, 3.5mm pitch |
+| AC/DC power supply | No external AC/DC power supply provided. 24W is the minimum recommended power. An example could be [ACM24US12](https://www.xppower.com/product/ACM24-Series?m=ACM24US12) from XP Power.|
 | Input voltage breakout | Intended as power *output* (supply for connected HATs). Can be used as input but caution is advised as it is located after the reverse polarity protection. |
 | Display, camera outputs | Standard Raspberry Pi connections, 22pin, 0.5mm pitch |
 | HDMI port | ESD protected, current limit protection |
 | Single/double USB A | Depending on whether a USB line is needed for the M.2 port, a single or double (stacked) connector can be mounted. The USB line can be deviated through two 0402 jumpers. |
-| USB C port | ESD protected. When plugged, the board will switch to USB slave (connected USB devices will stop functioning). The USB C can power the Raspberry Pi for programming purposes. However optional M.2 modules will not be powered on. |
+| USB C port | ESD protected. When plugged, the board will switch to USB slave (connected USB devices will stop functioning). The USB C can power the Raspberry Pi for programming purposes. However optional M.2 modules will not be powered on, similarly to PoE functionnality.  |
 | Micro SD | Card slot for CM4 modules without eMMC. Push-push type connector. |
 | Micro SIM | For use with compatible M.2 modules. Push-push type connector. |
 | M.2 connector | The 2242 B key slot enables the use of SSDs, often with B+M key configuration, as well as network modules, which can then use the onboard micro SIM card. 1.5mm base height for the connected module.|
