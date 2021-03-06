@@ -70,7 +70,7 @@ Note: When powering the device through PoE (5V line of RPi header as power input
 - Western Digital PC SN520, 128GB
 
 ### Wireless/LTE/GPS modules (M.2 2242)
-- Huawei ME908s-158
+- Huawei ME906s-158
 - Huawei ME936
 - Sierra Wireless AirPrime EM7345
 
