@@ -130,4 +130,10 @@ Other components may be removed (for example no M.2, 4x USB A) upon request for 
 
 For any enquiry, please contact us at hello@oratek.com
 
+## Declarations of Conformity
+
+- [RoHS Declaration of Conformity](./_assets/conformity//Oratek-RoHS.pdf ':ignore :target=_blank')  
+- [CE Declaration of Conformity](./_assets/conformity//Oratek-TOFU-CE-Declaration_of_Conformity_\(DoC\).pdf ':ignore :target=_blank')  
+- [FCC Declaration of Conformity](./_assets/conformity//Oratek-TOFU-FCC-Declaration_of_Conformity_\(DoC\).pdf ':ignore :target=_blank')  
+
 *Raspberry Pi is a trademark of the Raspberry Pi Foundation*
