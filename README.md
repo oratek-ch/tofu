@@ -17,7 +17,7 @@ The size of the board is 9x9cm and its main features are :
 
 - Standard Raspberry Pi 40 pin GPIO header
 - Gigabit Ethernet port with PoE
-- M.2 2242 socket (key B) with micro SIM card holder. See [compatibility list](#tested-compatibility-list).
+- M.2 2242/3042 socket (key B) with micro SIM card holder. See [compatibility list](#tested-compatibility-list).
 - 3x USB-A ports
 - Full size HDMI port
 - Camera and display ports (newer 22pin version, flexible adapter cables can be purchased separately [here](https://store.oratek.com/collections/tofu))
@@ -60,7 +60,7 @@ Bottom layer design
 | USB C port | ESD protected. When plugged, the board will switch to USB slave (connected USB devices will stop functioning). The USB C can power the Raspberry Pi for programming purposes. However optional M.2 modules will not be powered on, similarly to PoE functionnality.  |
 | Micro SD | Card slot for CM4 modules without eMMC. Push-push type connector. |
 | Micro SIM | For use with compatible M.2 modules. Push-push type connector. |
-| M.2 connector | The 2242 B key slot enables the use of SSDs, often with B+M key configuration, as well as network modules, which can then use the onboard micro SIM card. 1.5mm base height for the connected module.|
+| M.2 connector | The 2242 B key slot enables the use of SSDs, often with B+M key configuration, as well as network modules, which can then use the onboard micro SIM card. 1.5mm base height for the connected module. Network cards are more often available as 3042 format, which is also compatible.|
 
 Note: When powering the device through PoE (5V line of RPi header as power input), or through USB C, a hissing noise may appear from the unused power supply. The fuse may be removed for silent operation in these cases.
 
@@ -69,7 +69,7 @@ Note: When powering the device through PoE (5V line of RPi header as power input
 - KingSpec NE 2242, 128GB
 - Western Digital PC SN520, 128GB
 
-### Wireless/LTE/GPS modules (M.2 2242)
+### Wireless/LTE/GPS modules (M.2 3042)
 - Huawei ME906s-158
 - Huawei ME936
 - Sierra Wireless AirPrime EM7345
