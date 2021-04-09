@@ -60,7 +60,7 @@ Bottom layer design
 | USB C port | ESD protected. When plugged, the board will switch to USB slave (connected USB devices will stop functioning). The USB C can power the Raspberry Pi for programming purposes. However optional M.2 modules will not be powered on, similarly to PoE functionnality.  |
 | Micro SD | Card slot for CM4 modules without eMMC. Push-push type connector. |
 | Micro SIM | For use with compatible M.2 modules. Push-push type connector. |
-| M.2 connector | The 2242 B key slot enables the use of SSDs, often with B+M key configuration, as well as network modules, which can then use the onboard micro SIM card. 1.5mm base height for the connected module. Network cards are more often available as 3042 format, which is also compatible.|
+| M.2 connector | The 2242 B key slot enables the use of SSDs, often with B+M key configuration, as well as network modules, which can then use the onboard micro SIM card. 1.5mm base height for the connected module. Network cards are more often available as 3042 format, which is also compatible. An adapter can be purchased separately to connect up to 2280 M key NVMe SSDs.|
 
 Note: When powering the device through PoE (5V line of RPi header as power input), or through USB C, a hissing noise may appear from the unused power supply. The fuse may be removed for silent operation in these cases.
 
@@ -68,6 +68,9 @@ Note: When powering the device through PoE (5V line of RPi header as power input
 ### NVMe SSDs (M.2 2242)
 - KingSpec NE 2242, 128GB
 - Western Digital PC SN520, 128GB
+
+### M key NVMe SSD (through adapter)
+- Western Digital WD Blue SN550, 256GB
 
 ### Wireless/LTE/GPS modules (M.2 3042)
 - Huawei ME906s-158
