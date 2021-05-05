@@ -68,9 +68,10 @@ Note: When powering the device through PoE (5V line of RPi header as power input
 ### NVMe SSDs (M.2 2242)
 - KingSpec NE 2242, 128GB
 - Western Digital PC SN520, 128GB
+- Transcend MTE452T, 128GB
 
 ### M key NVMe SSD (through adapter)
-- Western Digital WD Blue SN550, 256GB
+- Western Digital WD Blue SN550, 256GB, M.2 2280
 
 ### Wireless/LTE/GPS modules (M.2 3042)
 - Huawei ME906s-158
@@ -108,6 +109,17 @@ More information on NVMe can be found on Jeff Geerling's CM4 [review](https://ww
 ### eMMC boot
 To boot on eMMC, hold down the nRPIBOOT button while plugging the USB-C cable for flashing (no other power input). The USB cable will power the CM4 while it boots. You may release the button after having plugged the cable.
 More information for flashing the eMMC can be found [here](https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md).
+
+### SSD mounting
+First you need to partition the storage, following this tutorial from [pidramble](https://www.pidramble.com/wiki/benchmarks/external-usb-drives). Note that /dev/sda1 will most likely be replaced by /dev/nvme0n1.
+
+An alternate possibility for mounting can be found on Raspberry Pi's website, [here](https://www.raspberrypi.org/documentation/configuration/external-storage.md) (with a formatted device).
+
+A neat benchmark test can be run to find your SSD performance by following the 3 commands on [jamesachambers.com](https://www.jamesachambers.com/raspberry-pi-storage-benchmarks/), with results [here](https://storage.jamesachambers.com/). If following the Raspberry Pi mounting procedure, simply run:
+```
+sudo ./Storage.sh /mnt/mydisk
+```
+as the last command.
 
 ### Pin configurations
 ![boot_detail](./_media/boot_detail.jpg)  
