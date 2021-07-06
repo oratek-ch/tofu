@@ -71,7 +71,9 @@ Note: When powering the device through PoE (5V line of RPi header as power input
 - Transcend MTE452T, 128GB
 
 ### M key NVMe SSD (through adapter)
-- Western Digital WD Blue SN550, 256GB, M.2 2280
+- Western Digital Blue SN550, 256GB, M.2 2280
+- Western Digital Black SN750, 1TB, M.2 2280
+- Samsung 970 Pro, 512GB, M.2 2280
 
 ### Wireless/LTE/GPS modules (M.2 3042)
 - Huawei ME906s-158
