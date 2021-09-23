@@ -131,6 +131,21 @@ The tested cards work natively using [Balena OS](https://www.balena.io/os/) with
 
 Another way is to manually install Network Manager and Modem Manager and configure it. This is not specific to the TOFU board but more general to Linux. A guide to get started can be found [here](https://techship.com/faq/how-to-guide-control-and-set-up-a-data-connection-in-linux-using-modemmanager-as-connection-manager).
 
+### Camera and Display ports
+On the TOFU board, the camera and display ports are cam1 and disp1. You can find help on enabling these on the Raspberry Pi documentation ([camera](https://www.raspberrypi.org/documentation/computers/compute-module.html#attaching-a-raspberry-pi-camera-module) and [display](https://www.raspberrypi.org/documentation/computers/compute-module.html#attaching-the-official-7-inch-display)).
+You can for example download the file "dt-blob-disp1-cam1.dts" at the bottom of the page.
+
+You then need to compile the file (this will display lots of warnings which can be ignored):
+```
+sudo dtc -I dts -O dtb -o dt-blob-disp1-cam1.dtb dt-blob-disp1-cam1.dts
+```
+Then install the dt-blob.bin:
+```
+sudo cp dt-blob-disp1-cam1.dtb /boot/dt-blob.bin
+```
+reboot, and you should be all set.
+More information can also be found [here](https://pi3g.com/2020/09/01/how-to-bring-up-the-camera-and-display-on-a-compute-module-carrier-board/).
+
 ### Pin configurations
 ![boot_detail](./_media/boot_detail.jpg)  
 Boot and EEPROM options
@@ -142,6 +157,7 @@ Output voltage selection, Raspberry Pi 'Enable' and 'Run' pins, and wireless opt
 
 - [Raspberry Pi Compute Module 4 datasheet](https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf)
 - [Raspberry Pi Compute Module 4 IO Board datasheet](https://datasheets.raspberrypi.org/cm4io/cm4io-datasheet.pdf)
+- [General Raspberry Pi documentation](https://www.raspberrypi.org/documentation/)
 
 <!--![USB_detail](USB_detail.png)  
 USB routing options -->
