@@ -113,6 +113,9 @@ More information on NVMe can be found on Jeff Geerling's CM4 [review](https://ww
 To boot on eMMC, hold down the nRPIBOOT button while plugging the USB-C cable for flashing (no other power input). The USB cable will power the CM4 while it boots. You may release the button after having plugged the cable.
 More information for flashing the eMMC can be found [here](https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md).
 
+### Watchdog functions
+The compute module behaves much like a Raspberry Pi 4. Thanks to this, one can use the same watchdog functions for reliability issues. You can have a look at [diode.io](https://diode.io/raspberry%20pi/running-forever-with-the-raspberry-pi-hardware-watchdog-20202/) for more information on how to use those. More information may also be found on this StackExchange [thread](https://raspberrypi.stackexchange.com/questions/108080/watchdog-on-the-rpi4).
+
 ### SSD mounting
 First you need to partition the storage, following this tutorial from [pidramble](https://www.pidramble.com/wiki/benchmarks/external-usb-drives). Note that /dev/sda1 will most likely be replaced by /dev/nvme0n1.
 
