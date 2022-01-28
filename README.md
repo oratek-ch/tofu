@@ -83,7 +83,7 @@ Note: When powering the device through PoE or other power HATs (5V line of RPi h
 
 ## Technical files
 ### Mechanical
-- [STEP file](./_assets//TOFU.zip ':ignore :target=_blank')
+- [STEP files](./_assets//TOFU.zip ':ignore :target=_blank')
 - [Mechanical drawings](./_assets//TOFU-drawing.pdf ':ignore :target=_blank')  
 
 ### Electical
