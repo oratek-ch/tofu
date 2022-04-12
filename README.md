@@ -31,6 +31,10 @@ The size of the board is 9x9cm and its main features are :
 ![tofu_lte](./_media/TOFU_LTE.jpg)
 M.2 connectivity (key B) enables to fully take advantage of the new PCIe lane (here with a LTE/GPS module)
 
+## Operating temperature
+The CM4 is rated from -20°C to 85°C. All components on the TOFU board comply with this range.
+Apart from connectors, all electronic components are rated for -40°C or below.
+
 ## Layout
 
 ![design_top](./_media/Design_top.svg)  
