@@ -90,7 +90,7 @@ Note: When powering the device through PoE or other power HATs (5V line of RPi h
 - [STEP files](./_assets//TOFU.zip ':ignore :target=_blank')
 - [Mechanical drawings](./_assets//TOFU-drawing.pdf ':ignore :target=_blank')  
 
-### Electical
+### Electrical
 - [Schematics](./_assets//TOFU-schematics.pdf ':ignore :target=_blank')  
 - [Components reference](./_assets//TOFU-references.pdf ':ignore :target=_blank')  
 
@@ -114,8 +114,12 @@ is needed, followed by a reboot to enable the NVMe kernel module.
 More information on NVMe can be found on Jeff Geerling's CM4 [review](https://www.jeffgeerling.com/blog/2020/raspberry-pi-compute-module-4-review).
 
 ### eMMC boot
-To boot on eMMC, hold down the nRPIBOOT button while plugging the USB-C cable for flashing (no other power input). The USB cable will power the CM4 while it boots. You may release the button after having plugged the cable.
-More information for flashing the eMMC can be found [here](https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md).
+To boot on eMMC, hold down the nRPIBOOT button while plugging the USB-C cable for flashing (no other power input). The USB cable will power the CM4 while it boots. You may release the button after having plugged the cable. Then, you need to run the [rpiboot script](https://github.com/raspberrypi/usbboot). This can be done in two ways:
+
+- If you have BalenaEtcher, open it. It will run the script in the background, and after a few seconds, your device will be recognized.
+- Install rpiboot directly. For Linux/macOS, follow the [instructions on their github page](https://github.com/raspberrypi/usbboot). For Windows, you can [download the installer](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe).
+
+More information for flashing the eMMC can be found [here](https://www.raspberrypi.com/documentation/computers/compute-module.html#flashing-the-compute-module-emmc).
 
 ### Watchdog functions
 The compute module behaves much like a Raspberry Pi 4. Thanks to this, one can use the same watchdog functions for reliability issues. You can have a look at [diode.io](https://diode.io/raspberry%20pi/running-forever-with-the-raspberry-pi-hardware-watchdog-20202/) for more information on how to use those. More information may also be found on this StackExchange [thread](https://raspberrypi.stackexchange.com/questions/108080/watchdog-on-the-rpi4).
