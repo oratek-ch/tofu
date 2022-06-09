@@ -84,6 +84,7 @@ Note: When powering the device through PoE or other power HATs (5V line of RPi h
 - Huawei ME906s-158
 - Huawei ME936
 - Sierra Wireless AirPrime EM7345
+- SIMCom SIM7600G-H
 
 ## Technical files
 ### Mechanical
