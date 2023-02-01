@@ -46,7 +46,7 @@ Bottom layer design
 ### Additional information
 | Feature | Description|
 | ----------------------| :----------------------|
-| CM4 connectors | 1.45mm height|
+| CM4 connectors | CM4 will be stacked at a 1.5mm height|
 | Raspberry Pi header | Standard 40pin connector, refer to Raspberry Pi datasheets|
 | EEPROM WP, eMMC boot | Optional jumper (2.54mm pitch, see [pin configurations](#pin-configurations))|
 | Gb Ethernet | ESD protected, Power over Ethernet (PoE) capabilities through the official [Raspberry Pi PoE HAT](https://www.raspberrypi.org/products/poe-hat/). If using this HAT, we recommend using 10mm, M2.5 spacers, and covering the transformer with electrical tape for added protection. Using this HAT, the board will be compatible with 802.3af PoE networks. The CM4 will also enjoy a little breeze from the included fan. A higher current than 2.5A is advised for all peripherals.|
@@ -126,15 +126,19 @@ More information for flashing the eMMC can be found [here](https://www.raspberry
 The compute module behaves much like a Raspberry Pi 4. Thanks to this, one can use the same watchdog functions for reliability issues. You can have a look at [diode.io](https://diode.io/raspberry%20pi/running-forever-with-the-raspberry-pi-hardware-watchdog-20202/) for more information on how to use those. More information may also be found on this StackExchange [thread](https://raspberrypi.stackexchange.com/questions/108080/watchdog-on-the-rpi4).
 
 ### SSD mounting
-First you need to partition the storage, following this tutorial from [pidramble](https://www.pidramble.com/wiki/benchmarks/external-usb-drives). Note that /dev/sda1 will most likely be replaced by /dev/nvme0n1.
+First, you need to partition the storage, following this tutorial from [pidramble](https://www.pidramble.com/wiki/benchmarks/external-usb-drives). Note that /dev/sda1 will most likely be replaced by /dev/nvme0n1.
 
 An alternate possibility for mounting can be found on Raspberry Pi's website, [here](https://www.raspberrypi.org/documentation/configuration/external-storage.md) (with a formatted device).
 
-A neat benchmark test can be run to find your SSD performance by following the 3 commands on [jamesachambers.com](https://www.jamesachambers.com/raspberry-pi-storage-benchmarks/), with results [here](https://storage.jamesachambers.com/). If following the Raspberry Pi mounting procedure, simply run:
+A neat benchmark test can be run to find your SSD performance by running the command from [pibenchmarks.com/](https://pibenchmarks.com/), where you'll see great results on the TOFU board in [Top Scores (SBC)](https://pibenchmarks.com/top/).
+
 ```
-sudo ./Storage.sh /mnt/mydisk
+sudo curl https://raw.githubusercontent.com/TheRemote/PiBenchmarks/master/Storage.sh | sudo bash
 ```
-as the last command.
+This command has to be run in the disk location.
+
+### NVMe SSD boot
+Raspberry Pi now Supports NVMe SSD booting, and the TOFU board is the perfect companion for that! You may find more information on Raspberry Pi's [documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#nvme-ssd-boot).
 
 ### Network cards
 M.2 network cards often use the USB line of the connector as interface. Remember to enable the USB interface, as mentioned above.
@@ -145,7 +149,7 @@ Another way is to manually install Network Manager and Modem Manager and configu
 
 ### Camera and Display ports
 On the TOFU board, the camera and display ports are cam1 and disp1. You can find help on enabling these on the Raspberry Pi documentation ([camera](https://www.raspberrypi.org/documentation/computers/compute-module.html#attaching-a-raspberry-pi-camera-module) and [display](https://www.raspberrypi.org/documentation/computers/compute-module.html#attaching-the-official-7-inch-display)).
-You can for example download the file "dt-blob-disp1-cam1.dts" at the bottom of the page.
+You can for example download the file "[dt-blob-disp1-cam1.dts](https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.dts)" at the bottom of the page.
 
 You then need to compile the file (this will display lots of warnings which can be ignored):
 ```
@@ -157,6 +161,7 @@ sudo cp dt-blob-disp1-cam1.dtb /boot/dt-blob.bin
 ```
 reboot, and you should be all set.
 More information can also be found [here](https://pi3g.com/2020/09/01/how-to-bring-up-the-camera-and-display-on-a-compute-module-carrier-board/).
+To use the camera, you may refer to these guides on [libcamera software](https://www.raspberrypi.com/documentation/computers/camera_software.html#libcamera-and-libcamera-apps).
 
 ### Pin configurations
 ![boot_detail](./_media/boot_detail.jpg)  
