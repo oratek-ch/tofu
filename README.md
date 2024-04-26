@@ -24,7 +24,7 @@ All present and future shipments will be V1.1. The version number is found on th
 ## Features
 The size of the board is 9x9cm and its main features are :
 
-- Standard Raspberry Pi 40 pin GPIO header
+- Standard Raspberry Pi [40 pin GPIO header](https://pinout.xyz)
 - Gigabit Ethernet port with PoE through the official Raspberry Pi PoE HAT
 - M.2 2242/3042 socket (key B) with micro SIM card holder. See [compatibility list](#tested-compatibility-list).
 - 3x USB-A ports
@@ -56,7 +56,7 @@ Bottom layer design
 | Feature | Description|
 | ----------------------| :----------------------|
 | CM4 connectors | CM4 will be stacked at a 1.5mm height|
-| Raspberry Pi header | Standard 40pin connector, refer to Raspberry Pi datasheets|
+| Raspberry Pi header | Standard [40pin connector](https://pinout.xyz) |
 | EEPROM WP, eMMC boot | Optional jumper (2.54mm pitch, see [pin configurations](#pin-configurations))|
 | Gb Ethernet | ESD protected, Power over Ethernet (PoE) capabilities through the official [Raspberry Pi PoE HAT](https://www.raspberrypi.org/products/poe-hat/). If using this HAT, we recommend using 10mm, M2.5 spacers, and covering the transformer with electrical tape for added protection. Using this HAT, the board will be compatible with 802.3af PoE networks. The CM4 will also enjoy a little breeze from the included fan. A higher current than 2.5A is advised for all peripherals.|
 | Double USB A | Stacked USB 2.0 connectors, 1.5A current limit for all USB ports|
