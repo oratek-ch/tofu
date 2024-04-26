@@ -2,7 +2,7 @@
 
 <!-- ![logo](_media/tofu_for_github.png) -->
 
-# TOFU <small>1.0</small>
+# TOFU <small>1.1</small>
 
 > Documentation and more
 

@@ -1,8 +1,6 @@
 # TOFU Board
 Designed by [**Oratek**](https://oratek.com) in Switzerland  
-Version 1.0
-
-
+Version 1.1
 
 ## Overview
 The TOFU board is a carrier board for use with Raspberry Pi Compute Module 4 (CM4).
@@ -11,6 +9,17 @@ With user friendly additions, it may also be used by enthusiasts looking for a c
 
 ![tofu_cm4_sd](./_media/TOFU_cm4_sd.jpg)  
 TOFU board with mounted CM4
+
+> ## Engineering Notice
+The board has been updated to version V1.1 and V1.0 is no longer produced. V1.1 does not impact features, design or performance in any way but gives more design flexibility by moving away components placed underneath the Compute Module.
+All present and future shipments will be V1.1. The version number is found on the packaging and on the board itself.
+> #### V1.1 Changelog
+**Added**
+>- UKCA logo
+**Changed**
+>- Changed side of 3.3V fuse (F1)
+>**Removed**
+>- SIM_SW 0R (R31, below CM4)
 
 ## Features
 The size of the board is 9x9cm and its main features are :
