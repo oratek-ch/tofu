@@ -1,21 +1,22 @@
 <!-- _coverpage.md -->
 
-<!-- ![logo](_media/tofu_for_github.png) -->
+# TOFU Family Documentation
 
-# TOFU <small>1.1</small>
+> Carrier boards for Raspberry Pi Compute Module 4 & 5
 
-> Documentation and more
-
-- A flexible carrier board for use with Raspberry Pi Compute Module 4
-- All major inputs and outputs in a compact package
-- Storage, wireless possibilities through NGFF interface
+- Compact design with all major I/O
+- Expandable storage and wireless via NGFF (M.2)
+- From prototyping to deployment
+- TOFU5+ adds extra durability and features
+<br/><br/>
 - The rest is up to you !
+<br/><br/>
 
+[TOFU](tofu/)
+[TOFU5](tofu5/)
+[TOFU5+](tofu5+/)
 [Oratek Store](https://store.oratek.com)
-[Get Started](#tofu-board)
 
-<!-- background image to be fixed -->
-<!-- ![](_media/tofu_background.jpg) -->
 
 <!-- background color -->
 ![color](#000)
