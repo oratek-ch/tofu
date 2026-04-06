@@ -1,0 +1,65 @@
+
+
+name: Question
+description: Ask a question about TOFU products
+title: "[Question] "
+labels: ["question"]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Ask your question here. Provide enough context so we can help efficiently.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which product are you using?
+      options:
+        - TOFU
+        - TOFU5
+        - TOFU5+
+        - Not sure / other
+    validations:
+      required: true
+
+  - type: input
+    id: compute_module
+    attributes:
+      label: Compute Module
+      description: Which Raspberry Pi Compute Module are you using?
+      placeholder: e.g. CM4 Lite / CM5 8GB
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to achieve?
+    validations:
+      required: false
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: What have you tried?
+      description: Steps already taken or documentation consulted
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked the official documentation on oratek.com
+          required: true

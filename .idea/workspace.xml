@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ac5f86a-033a-4107-8323-ab49322fabd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/documentation_issue.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/question.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/migration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tofu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nojekyll" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/conformity/Oratek-RoHS_Declaration_of_Conformity.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_coverpage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_media/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_media/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_assets/TOFU-drawing.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_assets/TOFU-references.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_assets/TOFU-schematics.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_assets/TOFU.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_assets/conformity/Oratek-Declaration_of_Conformity_for_TOFU_CE.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_assets/conformity/Oratek-Declaration_of_Conformity_for_TOFU_FCC.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_media/Design_bot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_media/Design_bot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_media/Design_top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_media/Design_top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_media/En_Dis_detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_media/TOFU_LTE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_media/TOFU_cm4_sd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_media/USB_detail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_media/boot_detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_media/tofu_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu/_media/tofu_for_github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_assets/TOFU5+-drawing.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_assets/TOFU5+-schematics.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_assets/TOFU5+.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_assets/conformity/Oratek-TOFU5+-CE-Declaration_of_Conformity.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_assets/conformity/Oratek-TOFU5+-FCC-Declaration_of_Conformity.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_assets/conformity/Oratek-TOFU5+-UKCA-Declaration_of_Conformity.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/Boot_Detail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/CRYPTO_SUCCESS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/DIP_SWITCH.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/Design_bot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/Design_top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/EN_DIS_DETAIL.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/GPIO_VREF.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/G_ENABLE.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/I2C_address_detection_CRYPTO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/I2C_address_detection_GPIO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/I2C_address_detection_TEMP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TEMP_SUCCESS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TOFU5+_CM5_BACK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TOFU5+_CM5_FRONT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TOFU5+_Square_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TOFU5+_Square_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TOFU5+_Square_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TOFU5+_Square_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TOFU5+_Square_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TOFU5+_Square_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TOFU5+_Square_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TOFU5-0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/TOFU5-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5+/_media/USB2_Breakout_Header.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_assets/TOFU5-drawing.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_assets/TOFU5-schematics.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_assets/TOFU5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_assets/conformity/Oratek-TOFU5-CE-Declaration_of_Conformity.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_assets/conformity/Oratek-TOFU5-FCC-Declaration_of_Conformity.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_assets/conformity/Oratek-TOFU5-UKCA-Declaration_of_Conformity.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/Boot_Detail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/DIP_SWITCH.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/Design_bot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/Design_top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/EN_DIS_DETAIL.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/GLOBAL_ENABLE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/GPIO_VREF.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/G_ENABLE.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_BACK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_CM5_FRONT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_FRONT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_LAYOUT_BOTTOM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_LAYOUT_TOP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_Square_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_Square_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_Square_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_Square_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_Square_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_pcb-render_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5_pcb-render_front.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5lite-0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/TOFU5lite-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/USB2_Breakout_Header.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/boot_detail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tofu5/_media/en_dis.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2pznijNvCa6oNaCmYT0LQ6auT44" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aurelienessig/Bitbucket/tofu/tofu/tofu5/_media&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/Change Language&quot;: [
+      &quot;HTML&quot;
+    ],
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;,
+      &quot;SVG&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tofu5/_media" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_assets/conformity" />
+      <recent name="$PROJECT_DIR$/tofu5/_media" />
+      <recent name="$PROJECT_DIR$/_media" />
+      <recent name="$PROJECT_DIR$/tofu5+" />
+      <recent name="$PROJECT_DIR$/tofu5" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ac5f86a-033a-4107-8323-ab49322fabd5" name="Changes" comment="" />
+      <created>1733777900256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733777900256</updated>
+      <workItem from="1733777901319" duration="6475000" />
+      <workItem from="1733948651388" duration="2873000" />
+      <workItem from="1735242348936" duration="551000" />
+      <workItem from="1738585894136" duration="1674000" />
+      <workItem from="1757347963930" duration="3103000" />
+      <workItem from="1759214369131" duration="985000" />
+      <workItem from="1759240411062" duration="635000" />
+      <workItem from="1764831603920" duration="916000" />
+      <workItem from="1765025318611" duration="643000" />
+      <workItem from="1765890405410" duration="2884000" />
+      <workItem from="1767116432359" duration="1775000" />
+      <workItem from="1767710632314" duration="1965000" />
+      <workItem from="1768902769381" duration="612000" />
+      <workItem from="1769090000410" duration="4030000" />
+      <workItem from="1769786530540" duration="16740000" />
+      <workItem from="1770592979660" duration="598000" />
+      <workItem from="1770595203472" duration="200000" />
+      <workItem from="1770595498094" duration="121000" />
+      <workItem from="1770595689473" duration="337000" />
+      <workItem from="1770596089989" duration="334000" />
+      <workItem from="1775467346390" duration="605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

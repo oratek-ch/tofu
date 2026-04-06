@@ -1,0 +1,77 @@
+name: Feature request
+description: Suggest an improvement or new feature for TOFU products or documentation
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Share your idea. Clear use cases help us evaluate requests.
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: What does this request relate to?
+      options:
+        - Hardware
+        - Documentation
+        - Software / firmware
+        - Accessories
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which product is concerned?
+      options:
+        - TOFU
+        - TOFU5
+        - TOFU5+
+        - General / multiple products
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / limitation
+      description: What problem are you facing?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe your idea or feature
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workaround or alternative solutions you tried
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Use case, constraints, diagrams, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked existing issues to avoid duplicates
+          required: true

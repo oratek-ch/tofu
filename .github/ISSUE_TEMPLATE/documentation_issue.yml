@@ -1,0 +1,79 @@
+name: Documentation issue
+description: Report an issue or suggest an improvement to the TOFU documentation
+title: "[Docs] "
+labels: ["documentation"]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Help us improve the documentation. Be as specific as possible.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which product does this relate to?
+      options:
+        - TOFU
+        - TOFU5
+        - TOFU5+
+        - General / multiple products
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: Documentation page URL
+      description: Link to the page with the issue
+      placeholder: https://www.oratek.com/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Type of issue
+      options:
+        - Incorrect information
+        - Missing information
+        - Unclear explanation
+        - Outdated content
+        - Broken link
+        - Typo / formatting
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: What is wrong or unclear?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: How should it be fixed or improved?
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, references, or extra details
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked the latest documentation on oratek.com
+          required: true

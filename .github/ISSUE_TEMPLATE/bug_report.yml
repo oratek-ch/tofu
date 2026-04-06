@@ -1,0 +1,120 @@
+name: Bug report
+description: Report a problem with a TOFU board or its documentation
+title: "[Bug] "
+labels: ["bug"]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue.
+
+        Please provide as much detail as possible so we can understand and reproduce the problem.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which product are you using?
+      options:
+        - TOFU
+        - TOFU5
+        - TOFU5+
+    validations:
+      required: true
+
+  - type: input
+    id: revision
+    attributes:
+      label: Hardware revision
+      description: Board revision (if known)
+      placeholder: e.g. Rev A, Rev 1.2
+    validations:
+      required: false
+
+  - type: input
+    id: compute_module
+    attributes:
+      label: Compute Module
+      description: Which Raspberry Pi Compute Module are you using?
+      placeholder: e.g. CM4 4GB Lite / CM5 8GB eMMC
+    validations:
+      required: true
+
+  - type: input
+    id: power
+    attributes:
+      label: Power supply
+      description: Power supply used (voltage, current, type)
+      placeholder: e.g. 5V 3A USB-C / 12V DC supply
+    validations:
+      required: false
+
+  - type: textarea
+    id: peripherals
+    attributes:
+      label: Peripherals / connections
+      description: List connected devices (USB, HDMI, NVMe, sensors, etc.)
+      placeholder: |
+        - NVMe SSD (model)
+        - HDMI display
+        - USB keyboard
+    validations:
+      required: false
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system / image
+      description: OS and version used
+      placeholder: e.g. Raspberry Pi OS 64-bit (Bookworm)
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: Clear and concise description of the problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce the issue?
+      placeholder: |
+        1. Flash image
+        2. Insert CM
+        3. Power on
+        4. Observe behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / additional context
+      description: Include logs, screenshots, or photos if available
+      placeholder: Paste logs or drag & drop images here
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked the official documentation on oratek.com
+          required: true
+        - label: I have provided enough information to help reproduce the issue
+          required: true
